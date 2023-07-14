@@ -22,4 +22,5 @@ int main(){
     string s = "Let's do the C++ practice!", d = " ";
     vector<string> a = split(s,d);
     for(string b:a) cout << b << "\n";
+    //-> for(int i = 0; i < a.size(); i++) cout << a[i] << "\n";
 }
