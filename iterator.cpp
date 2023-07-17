@@ -14,4 +14,12 @@ int main(){
         cout << *it << ' ';
     }
     cout << '\n';
+
+    for(vector<int>::iterator it = v.begin(); it != v.end(); it++){
+        cout << *it << ' ';
+    }
+    auto it = v.begin();
+    advance(it, 3);
+    cout << '\n';
+    cout << *it << '\n';
 }
